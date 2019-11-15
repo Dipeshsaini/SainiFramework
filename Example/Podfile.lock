@@ -1,0 +1,16 @@
+PODS:
+  - SainiFramework (0.1.0)
+
+DEPENDENCIES:
+  - SainiFramework (from `../`)
+
+EXTERNAL SOURCES:
+  SainiFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SainiFramework: a095086a0c901ae1eeeb96b20529f535b56c0fee
+
+PODFILE CHECKSUM: b4a7c15ef98b0269d665a04192b1b137f2f3cd0f
+
+COCOAPODS: 1.8.4

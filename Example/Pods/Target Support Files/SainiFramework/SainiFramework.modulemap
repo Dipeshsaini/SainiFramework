@@ -1,0 +1,6 @@
+framework module SainiFramework {
+  umbrella header "SainiFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
