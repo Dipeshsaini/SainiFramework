@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SainiFramework_Example' do
+  pod 'SainiFramework', :path => '../'
+
+  target 'SainiFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
