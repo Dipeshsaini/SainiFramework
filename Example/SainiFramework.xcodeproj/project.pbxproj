@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		22383B41B50C413C8D8AE391 /* Pods-SainiFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SainiFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-SainiFramework_Example/Pods-SainiFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2270433BDF70A8474BC077D4 /* SainiFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SainiFramework.podspec; path = ../SainiFramework.podspec; sourceTree = "<group>"; };
+		2270433BDF70A8474BC077D4 /* SainiFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SainiFramework.podspec; path = ../SainiFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EC71B96A9CCF468242186E4 /* Pods_SainiFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SainiFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		369451737226A441B15D8259 /* Pods-SainiFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SainiFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-SainiFramework_Example/Pods-SainiFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SainiFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SainiFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		73D58665D6060719AD94F557 /* Pods_SainiFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SainiFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		751E58F351EF3AC836324617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		751E58F351EF3AC836324617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C2F056B40B675D28B3B44970 /* Pods-SainiFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SainiFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SainiFramework_Tests/Pods-SainiFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C751DB53122FB78E2718654D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C751DB53122FB78E2718654D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D295BB20AC7ED03BBEC8D867 /* Pods-SainiFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SainiFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-SainiFramework_Tests/Pods-SainiFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				C2F056B40B675D28B3B44970 /* Pods-SainiFramework_Tests.debug.xcconfig */,
 				D295BB20AC7ED03BBEC8D867 /* Pods-SainiFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
